@@ -1,0 +1,16 @@
+version: '25.0.3'
+
+services: 
+  elasticsearch:
+      image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
+      environment:
+        - xpack.security.enabled=false
+        - "discovery.type=single-node"
+      ports:
+        - 9200:9200
+      volumes: 
+        - elasticsearch-data:/usr/share/elasticsearch/data
+
+volumes:
+  elasticsearch-data:
+    driver: local       

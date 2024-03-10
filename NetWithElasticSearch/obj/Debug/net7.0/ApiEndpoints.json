@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "NetWithElasticSearch.Controllers.ValuesController",
+    "Method": "CreateData",
+    "RelativePath": "api/Values/CreateData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetWithElasticSearch.Controllers.ValuesController",
+    "Method": "GetDataListWithEF",
+    "RelativePath": "api/Values/GetDataListWithEF/{value}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetWithElasticSearch.Controllers.ValuesController",
+    "Method": "GetDataListWithElasticSearch",
+    "RelativePath": "api/Values/GetDataListWithElasticSearch/{value}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetWithElasticSearch.Controllers.ValuesController",
+    "Method": "SyncToElastic",
+    "RelativePath": "api/Values/SyncToElastic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
